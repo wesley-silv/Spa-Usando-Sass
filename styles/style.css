@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #495371;
+}
+nav ul li a:hover {
+  border-bottom: solid 2px #319DA0;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFD39A;
+  opacity: 0.9;
+  border-radius: 45px;
+  /* No Sass é possível usar o escopa das variáveis para manipular os valores, passando novas atribuições.*/
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: red;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #319DA0;
+}/*# sourceMappingURL=style.css.map */

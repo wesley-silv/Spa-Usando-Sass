@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  .inner-banner {
+    padding: 3rem;
+    background-color: $cor-terciaria;
+    opacity: .9;
+    border-radius: 45px;
+    /* No Sass é possível usar o escopa das variáveis para manipular os valores, passando novas atribuições.*/
+    h1 {
+      $cor-primaria: red;
+      font-size: $font-principal;
+      color: $cor-primaria;
+    }
+    h2 {
+      font-size: $font-principal / 2;
+      color: $cor-secundaria;
+    }
+  }
+}
