@@ -20,7 +20,7 @@
       color: $cor-primaria;
     }
     h2 {
-      font-size: $font-principal / 2;
+      font-size: calc($font-principal / 2);
       color: $cor-secundaria;
     }
   }

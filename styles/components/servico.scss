@@ -1,0 +1,46 @@
+@import '../abstract/variaveis';
+
+#servicos {
+  margin: 80px;
+  h4 {
+    font-size: calc($font-principal / 2.5);
+    color: $cor-secundaria;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem;
+  }
+  h3 {
+    text-align: center;
+    font-size: calc($font-principal / 1.2);
+    font-weight: 300;
+    margin-bottom: 80px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+    .card {
+      width: 360px;
+      text-align: center;
+      h5 {
+        font-size: calc($font-principal / 1.5);
+        font-weight: 300;
+        margin: 25px 0 20px 0;
+        color: $font-principal;
+      }
+      p {
+        font-size: calc($font-principal / 3);
+        font-weight: 300;
+        color: $cor-primaria;
+        line-height: 1.25rem;
+      }
+      .img-container {
+        padding-bottom: 2px;
+        border-bottom: solid 6px $cor-secundaria;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

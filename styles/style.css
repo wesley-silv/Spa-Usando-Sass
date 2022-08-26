@@ -43,4 +43,138 @@ nav ul li a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #319DA0;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h4 {
+  font-size: 1.2rem;
+  color: #319DA0;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 25px 0 20px 0;
+  color: 3rem;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #495371;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: solid 6px #319DA0;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #FFD39A;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #495371;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: solid 4px white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  width: 540px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .inputfocus-within {
+  box-sizing: 1px 1px 8px #495371;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #495371;
+  color: #319DA0;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: solid 2px #495371;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #495371;
+  background-color: #319DA0;
+  border-color: #FFD39A;
+}
+
+#bannertwo {
+  text-align: center;
+  line-height: 20px;
+  padding: 1.5rem 1rem;
+  background: #FFD39A;
+  margin: 2em;
+  border-radius: 50px;
+}
+#bannertwo img {
+  margin: 1.5em;
+  border-radius: 20px;
+}
+#bannertwo .texto {
+  color: #495371;
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #495371;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: #FFD39A;
+  text-transform: uppercase;
+}
+footer:hover {
+  background: #FFD39A;
+  color: #495371;
+  transition: 400ms;
 }/*# sourceMappingURL=style.css.map */
